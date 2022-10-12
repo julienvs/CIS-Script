@@ -8,18 +8,18 @@ help () {
     echo "The following options are available:"
     echo 
     echo "  -j  --json      Builds Jamf Pro Custom Schema.json file"
-    echo "  -s  --separate  Builds separate CIS Benchmark Script from the fragements"
+    echo "  -s  --separate  Builds separate CIS Benchmark Script from the fragments"
     echo "  -h  --help      Displays this message or details on a specific verb"
     echo 
     echo "EXAMPLES"
     echo "  ./Assemble.sh"
-    echo "      Builds CIS Benchmark Script from the fragements"
+    echo "      Builds CIS Benchmark Script from the fragments"
     echo 
     echo "  ./Assemble.sh -j"
     echo "      Builds Jamf Pro Custom Schema.json file"
     echo 
     echo "  ./Assemble.sh -s"
-    echo "      Builds separate CIS Benchmark Script from the fragements"
+    echo "      Builds separate CIS Benchmark Script from the fragments"
     echo 
     exit
 }
